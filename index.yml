@@ -1,0 +1,244 @@
+# Notes:
+# - [Event] not implemented yet
+#   Will be used by RunExe to trigger an installer when the pattern matches
+
+microsoft365business:
+  Arch: win64
+  Name: Microsoft 365 Apps for business
+  Description: Microsoft 365 Apps for business.
+  Grade: Silver
+  Category: Software
+  Channel: unstable
+  Runners:
+  - soda-11.0-11-experimental
+  - soda-11.0-12-experimental
+  - soda-11.0-13-experimental
+  - soda-11.0-14-experimental
+  - soda-11.0-16-experimental
+  - soda-11.0-17-experimental
+  - soda-11.0-18-experimental
+  - soda-11.0-19-experimental
+  - soda-11.0-20-experimental
+  - soda-11.0-21-experimental
+  - soda-11.0-22-experimental
+  - soda-11.0-23-experimental
+  - soda-11.0-24-experimental
+  - soda-11.0-25-experimental
+  - soda-11.0-26-experimental
+  - soda-11.0-27-experimental
+  - soda-11.0-28-experimental
+  - soda-11.0-29-experimental
+  - soda-11.0-30-experimental
+  - soda-11.0-31-experimental
+  - soda-11.0-32-experimental
+  - soda-11.0-33-experimental
+  - soda-11.0-34-experimental
+  - soda-11.0-35-experimental
+  - soda-11.0-36-experimental
+  - soda-11.0-37-experimental
+  - soda-11.0-38-experimental
+
+microsoft365enterprise:
+  Arch: win64
+  Name: Microsoft 365 Apps for enterprise
+  Description: Microsoft 365 Apps for enterprise.
+  Grade: Silver
+  Category: Software
+  Channel: unstable
+  Runners:
+  - soda-11.0-11-experimental
+  - soda-11.0-12-experimental
+  - soda-11.0-13-experimental
+  - soda-11.0-14-experimental
+  - soda-11.0-16-experimental
+  - soda-11.0-17-experimental
+  - soda-11.0-18-experimental
+  - soda-11.0-19-experimental
+  - soda-11.0-20-experimental
+  - soda-11.0-21-experimental
+  - soda-11.0-22-experimental
+  - soda-11.0-23-experimental
+  - soda-11.0-24-experimental
+  - soda-11.0-25-experimental
+  - soda-11.0-26-experimental
+  - soda-11.0-27-experimental
+  - soda-11.0-28-experimental
+  - soda-11.0-29-experimental
+  - soda-11.0-30-experimental
+  - soda-11.0-31-experimental
+  - soda-11.0-32-experimental
+  - soda-11.0-33-experimental
+  - soda-11.0-34-experimental
+  - soda-11.0-35-experimental
+  - soda-11.0-36-experimental
+  - soda-11.0-37-experimental
+  - soda-11.0-38-experimental
+
+
+
+
+
+
+
+
+
+
+
+flstudio:
+  Arch: win64
+  Name: FL Studio
+  Description: FL Studio is a digital audio workstation developed by the Belgian company Image-Line.
+  Grade: Gold
+  Category: Software
+  Icon: flstudio.png
+  Event: flstudio_win64_*.exe
+
+abletonlive:
+  Arch: win64
+  Name: Ableton Live
+  Description: Live is a digital audio workstation developed by the German company Ableton.
+  Grade: Silver
+  Category: Software
+  Icon: abletonlive.png
+  Event: ableton*.exe
+
+fusion:
+ Arch: win64
+ Name: Autodesk Fusion
+ Description: Fusion is a cloud-based 3D CAD, CAM and CAE design tool from Autodesk. It is available on a number of platforms including Windows, Mac and In-Browser.
+ Grade: Bronze
+ Category: Software
+ Icon: fusion.png
+ Event: fusion.exe
+
+
+medal:
+ Arch: win64
+ Name: Medal.tv
+ Description: Import, upload and share your gaming moments using Medal.tv.
+ Grade: Silver
+ Category: Software
+ Icon: medal.png
+ Event: MedalSetup.exe
+
+
+fridaserverx86_64:
+ Arch: win64
+ Name: Frida Server x86_64
+ Description: Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers - Windows 64-bit server.
+ Grade: Platinum
+ Category: Software
+ Icon: frida.png
+
+fridaserverx86:
+ Arch: win32
+ Name: Frida Server x86
+ Description: Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers - Windows 32-bit server.
+ Grade: Platinum
+ Category: Software
+ Icon: frida.png
+
+estlcam:
+ Arch: win64
+ Name: Estlcam
+ Description: 2D / 3D CAM (Computer-Aided Manufacturing).
+ Grade: Platinum
+ Category: Software
+ Icon: estlcam.png
+
+twentesim:
+ Arch: win64
+ Name: '20-sim'
+ Description: Modeling and simulation software.
+ Grade: Bronze
+ Category: Software
+ Icon: 20sim.png
+
+twentesim4c:
+ Arch: win64
+ Name: '20-sim 4C'
+ Description: 'Code generation, deployment and measurements for 20-sim. Prerequisite: 20-sim installed in the same capsule.'
+ Grade: Gold
+ Category: Software
+ Icon: 20sim4C.png
+
+
+# rockstar:
+#  Arch: win64
+#  Name: Rockstar Launcher
+#  Description: The official Rockstar launcher.
+#  Grade: Platinum
+#  Category: Games
+#  Icon: rockstar.png
+
+
+
+qobuz:
+ Arch: win64
+ Name: 'Qobuz'
+ Description: 'Qobuz is a French digital music store and streaming service.'
+ Grade: Gold
+ Category: Software
+ Icon: qobuz.png
+
+mega:
+  Arch: win64
+  Name: 'MEGAsync'
+  Description: 'MEGAsync client for mega.nz.'
+  Grade: Silver
+  Category: Software
+  Icon: mega.png
+
+
+
+
+evernote:
+  Arch: win64
+  Name: 'Evernote'
+  Description: 'Evernote note-taking app (desktop version).'
+  Grade: Silver
+  Category: Software
+  Icon: evernote.jpg
+
+
+winuae:
+  Arch: win64
+  Name: 'WinUAE'
+  Description: 'A Commodore Amiga emulator.'
+  Grade: Platinum
+  Category: Software
+  Icon: winuae.png
+
+streamerbot:
+  Arch: win64
+  Name: 'StreamerBot'
+  Description: 'Supercharge your live stream with Streamer.bot.'
+  Grade: Gold
+  Category: Software
+  Icon: streamerbot.svg
+
+roon:
+  Arch: win64
+  Name: 'Roon'
+  Description: Everything about music – browsing, discovery, collecting, and listening – is 10x more engaging with Roon.
+  Grade: Gold
+  Category: Software
+  Icon: roon.png
+  Event: RoonInstaller64.exe
+
+steuersparerklaerung:
+  Arch: win64
+  Name: 'Steuersparerklaerung 2026 - 31.31.45'
+  Description: 'Steuersparerklaerung 2026 für das Steuerjahr 2025 [v31.31.45] (Recommended: Custom Capsule + kron4ek-wine-11.9-amd64)'
+  Grade: Silver
+  Category: Software
+  Icon: SSE.png
+
+orcadx:
+  Arch: win64
+  Name: Cadence OrCAD X
+  Description: Schematic capture, PSpice simulation and PCB design. Requires OrCADXInstall.exe and a Cadence account.
+  Grade: Bronze
+  Category: Software
+  Icon: orcadx.svg
+  Event: OrCADXInstall.exe
